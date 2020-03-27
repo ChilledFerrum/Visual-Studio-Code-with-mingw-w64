@@ -1,0 +1,42 @@
+1) Move to the folder mingw-w64 in C:/
+
+2) Press windows menu and open " Edit environment variables for your account " 
+		OR " Επεξεργασία των μεταβλητών περιβάλλοντος του συστήματος "
+
+3) Click on path variables
+
+4) Select Path from System variables and click Edit...
+
+5) Create a new path with the name " C:\mingw-w64\mingw64\bin " and click OK 3x
+
+-to confirm
+	run cmd and enter if the output is this...
+	g++ --versiong++ (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
+	Copyright (C) 2018 Free Software Foundation, Inc.
+	This is free software; see the source for copying conditions.  There is NO
+	warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
+- Then Instalation is correct if NOT check either the path of the folders or the path set inside system variables
+
+6) Download Visual Studio Code https://code.visualstudio.com/
+
+7) Check all the boxes in Aditional Tasks
+
+-almost done
+
+8) Launch Visual Studio code and install C/C++ Extention for compiling programs
+
+9) Install Code Runner to execute programs withing Visual Studio Code
+
+Execute this simple program to check if it works 
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	vector<string>texts{"Hello" , "," , "World" , "!"};
+	for(auto i : texts)
+		cout << i;
+	cout << endl;
+	return 0;
+}
+	
