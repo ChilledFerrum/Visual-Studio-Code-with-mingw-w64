@@ -1,4 +1,4 @@
-1) Move to the folder mingw-w64 in C:/
+1) Move the folder mingw-w64 in C:/
 
 2) Press windows menu and open " Edit environment variables for your account " 
 		OR " Επεξεργασία των μεταβλητών περιβάλλοντος του συστήματος "
